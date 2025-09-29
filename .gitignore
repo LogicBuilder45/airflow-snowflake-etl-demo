@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Envs
+.env
+
+# Airflow
+airflow_logs/
+dags/__pycache__/
+plugins/__pycache__/
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
