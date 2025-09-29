@@ -5,10 +5,10 @@ It focuses on clear separation of concerns (extract, load), environment-driven c
 patterns you can adapt for production.
 
 ## Architecture (High Level)
-- Source (public dataset/API or CSV) →
+- Source (public dataset/API or CSV)
 - Airflow (scheduled DAG) →
-- Staging in Snowflake (internal stage/table) →
-- Transformations (SQL) →
+- Staging in Snowflake (internal stage/table)
+- Transformations (SQL)
 - Analytics-ready tables
 
 ## Tech Stack
@@ -54,10 +54,4 @@ docker-compose.yaml      # local Airflow stack
 requirements.txt         # Python deps for Airflow image / DAGs
 .env.example             # environment variable template
 .gitignore               # standard ignores
-LICENSE                  # MIT
 ```
-
-## Notes
-- This is a **neutral, employer-agnostic** reference implementation.
-- Use your own dataset or a public one (e.g., NYC Taxi).
-- Diagrams are placeholders—replace with your final design in `docs/`.
