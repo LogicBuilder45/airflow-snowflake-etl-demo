@@ -6,7 +6,7 @@ patterns you can adapt for production.
 
 ## Architecture (High Level)
 - Source (public dataset/API or CSV)
-- Airflow (scheduled DAG) →
+- Airflow (scheduled DAG)
 - Staging in Snowflake (internal stage/table)
 - Transformations (SQL)
 - Analytics-ready tables
